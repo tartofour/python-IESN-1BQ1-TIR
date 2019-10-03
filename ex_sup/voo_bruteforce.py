@@ -1,6 +1,7 @@
+#! /usr/bin/python
 
 passwd = ""
-alphabet ="ABCDEFGHIJKLMNOPQRSTUVWXTYZ"
+alphabet ="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 for letter in alphabet:
     char1 = letter
