@@ -1,8 +1,8 @@
 #!/usr/bin/python
 
-tauxChangeDollard = 1.09
+tauxChangeDollars = 1.09
 montantEuros = float(input("Montant en Euros : "))
-montantDollards = montantEuros * tauxChangeDollard
-print( "{} Euros vaut {} Dollards".format(montantEuros, montantDollards))
+montantDollars = montantEuros * tauxChangeDollars
+print( "{} Euros vaut {:.2f} Dollars".format(montantEuros, montantDollars))
 
         
