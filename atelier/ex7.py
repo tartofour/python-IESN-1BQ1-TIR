@@ -1,8 +1,5 @@
 #!/usr/bin/python
 
-nbreUser = int(input("Entrez un nombre : "))
+nb_user = int(input("Entrez un nombre : "))
+print(nb_user %2 == 0)
 
-if nbreUser % 2 == 1:
-    print(False)
-else:
-    print(True)

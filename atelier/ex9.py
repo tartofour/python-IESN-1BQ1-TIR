@@ -1,9 +1,9 @@
 #!/usr/bin/python
 
-nbreUser = int(input("Entrez un nombre de secondes : "))
+nb_user = int(input("Entrez un nombre de secondes : "))
 
-nbreHeures = nbreUser // 3600
-nbreMinutes = (nbreUser % 3600) // 60
-nbreSecondes = (nbreUser % 3600) % 60
+nb_heures = nb_user // 3600
+nb_minutes = (nb_user % 3600) // 60
+nb_secondes = (nb_user % 3600) % 60
 
-print("{} secondes = {} heure {} minutes {} secondes".format(nbreUser, nbreHeures, nbreMinutes, nbreSecondes))
+print("{} secondes = {} heure {} minutes {} secondes".format(nb_user, nb_heures, nb_minutes, nb_secondes))

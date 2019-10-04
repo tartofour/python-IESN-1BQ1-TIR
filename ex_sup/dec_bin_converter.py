@@ -1,7 +1,5 @@
 #!/usr/bin/python
 
-# ATTENTION, C'EST PAS DE CETTE MANIÈRE QUE LE PROF VEUT QU'ON RÉALISE LE PROGRAMME !
-
 nbreDec = int(input("Entrez un nombre en 0 et 15 : "))
 resultatBin = ''
 

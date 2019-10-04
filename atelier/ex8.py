@@ -1,8 +1,7 @@
 #!/usr/bin/python
-nbreUser = float(input("Entrez un nombre entier positif : "))
-partieEntiere = int(nbreUser)
-partieDecimale = nbreUser - int(nbreUser) 
 
-print("{} = {} + {}".format(nbreUser, partieEntiere, partieDecimale))
+nb_user = float(input("Entrez un nombre entier positif : "))
+partie_entiere = nb_user // 1
+partie_decimale = nb_user % 1 
 
-# Bug, je sais pas pourquoi. 
+print("{} = {} + {}".format(nb_user, partie_entiere, partie_decimale))
