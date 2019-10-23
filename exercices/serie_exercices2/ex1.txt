@@ -1,0 +1,5 @@
+1) type(nb) == int
+2) nb > 15
+3) st[0] == "b" and st > "bouton"
+4) nb > 0 and ((nb % 2 == 1) and nb > 100) or (nb % 2 == 0 and not(nb > 100))
+5) nb1 + 1 == nb2 or nb2 + 1 == nb1
