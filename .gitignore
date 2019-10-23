@@ -1,6 +1,5 @@
 # Ignore everything
 /*
-!.gitignore
 
 # Except these files/directories
 !exercices
