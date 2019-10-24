@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# Je n'ai pas utilisé de variable globale car ces merdes faisaient tout planter.
 
 ### FONCTION ###
 def controleur_volume():
@@ -10,7 +9,6 @@ def controleur_volume():
         volume += 10
     elif user_input is "-":
         volume -= 10
-
 
 ### MAIN ### 
 volume = 50 

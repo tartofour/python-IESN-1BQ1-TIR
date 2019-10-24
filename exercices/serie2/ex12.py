@@ -8,8 +8,8 @@ while nb_user != nb_mystere:
     nb_user = int(input("Entrez un nombre compris en 1 et 100 : "))
 
     if nb_user > nb_mystere:
-        print("Trop grand !\n")
+        print("Trop grand !")
     elif nb_user < nb_mystere:
-        print("Trop petit !\n")
+        print("Trop petit !")
     else:
         print("Gagné !")
