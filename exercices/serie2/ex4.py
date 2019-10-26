@@ -1,4 +1,5 @@
 #!/usr/bin/python
+
 string1 = input("Entrez une première chaine de caractère : ")
 string2 = input("Entrez une seconde chaine de caractère : ")
 

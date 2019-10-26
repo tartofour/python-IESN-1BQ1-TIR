@@ -15,5 +15,4 @@ while nb_secondes > 0:
         tic()
     else: 
         tac()
-
     nb_secondes -= 1
