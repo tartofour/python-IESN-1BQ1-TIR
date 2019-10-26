@@ -1,18 +1,12 @@
 #!/usr/bin/python
 
-### FONCTIONS ###
-def ligne_impair():
-    print("# _ # _ # _ # _")
-
-def ligne_pair():
-    print("_ # _ # _ # _ #")
-
+### FONCTION ###
 def affiche_echiquier():
     for i in range(8):
         if i %2 == 0:
-            ligne_pair()
+            print("_ # _ # _ # _ #")
         else: 
-            ligne_impair()
+            print("# _ # _ # _ # _")
 
 ### MAIN ###
 affiche_echiquier()
