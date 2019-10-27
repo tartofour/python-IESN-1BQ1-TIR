@@ -1,5 +1,5 @@
 #!/usr/bin/python
 
-nb_user = int(input("Entrez un nombre : "))
-print(nb_user %2 == 0)
+nb = int(input("Entrez un nombre : "))
+print(nb %2 == 0)
 

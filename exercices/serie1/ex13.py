@@ -9,6 +9,6 @@ ressources_insuffisantes = nb_batiments * ressources_necessaires > ressources_di
 peut_construire =  nb_batiments != 0 and nb_batiments <= 15 and nb_batiments * ressources_necessaires <= ressources_disponibles
 
 print("\nLe nombre de bâtiment est-il valide ? : {}".format(nb_batiments_valide))
-print("Les ressources sont elles insuffisantes ? : {}".format(ressources_insuffisantes))
+print("Les ressources sont-elles insuffisantes ? : {}".format(ressources_insuffisantes))
 print("Pouvez-vous contruire ? : {}".format(peut_construire))
 
