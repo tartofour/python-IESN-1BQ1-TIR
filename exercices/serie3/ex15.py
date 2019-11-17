@@ -42,16 +42,16 @@ def minuteur(nb_secondes: int):
 ### MAIN ###
 continuer = True
 
-while continuer:
+while continuer == True:
     affiche_menu()
-    choix_user = int(input("Que voulez vous faire ? (1-2-3): "))
+    choix_user = input("Que voulez vous faire ? (1-2-3-q): ")
 
-    if choix_user == 1:
+    if choix_user == "1":
         affiche_blague()
-        continuer == False
-    elif choix_user == 2:
+    elif choix_user == "2":
         jeu_nb_mystere()
-        continuer == False
-    elif choix_user == 3:
+    elif choix_user == "3":
         nb_secondes = int(input("Combien de secondes doit durer le minuteur ? : "))
         minuteur(nb_secondes)
+    elif choix_user == "q":
+        continuer = False 
