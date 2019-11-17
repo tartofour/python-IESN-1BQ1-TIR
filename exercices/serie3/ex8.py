@@ -1,12 +1,12 @@
 #!/usr/bin/python
 
 def nb_jours_mois(mois, est_bissextile=False):
-    if mois == "janvier" or mois == "mars" or mois == "mai" or mois == "juillet" or mois == "aout" or mois == "octobre" or mois == "decembre":
-        return 31
+    if mois == "avril" or mois == "juin" or mois == "septembre" or mois == "novembre":
+        return 30
     elif mois == "fevrier":
         return 29 if est_bissextile == True else 28
     else:
-        return 30
+        return 31
     
 mois = input("Entrez un mois pour connaître le nombre de jours qui le constitue (sans accent) : ")
 bissextile = input("L'année est-elle bissextile ? (o/n) : ")
