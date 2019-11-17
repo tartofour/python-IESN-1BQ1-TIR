@@ -3,14 +3,11 @@
 ### FONCTION ###
 def est_premier(nb: int) -> bool:
     i = 2
-    
-    if nb == 1:
-        return False
-    
-    while i < (nb):
+    while i < ((nb**1/2)+1):
         if nb % i == 0:
             return False 
         i+=1
+
     return True
         
 ### MAIN ###
