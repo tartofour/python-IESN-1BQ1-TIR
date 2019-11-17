@@ -1,10 +1,8 @@
 #!/usr/bin/python
 
-### FONCTION ###
 def affiche_ip(octet1, octet2, octet3, octet4):
     print(octet1, octet2, octet3, octet4, sep='.')
 
-### MAIN ###
 nb1 = int(input("Entrez un premier nombre : "))
 nb2 = int(input("Entrez un deuxième nombre : "))
 nb3 = int(input("Entrez un troisième nombre : "))

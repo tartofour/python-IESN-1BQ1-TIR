@@ -1,13 +1,11 @@
 #!/usr/bin/python
 
-### FONCTION ###
 def affiche_table(multiplicande, debut=1, fin=10):
     while debut <= fin:
         resultat = multiplicande * debut
         print("{} x {} = {}".format(multiplicande, debut, resultat))
         debut += 1
 
-### MAIN ###
 nb = int(input("La table de multiplication de quel nombre souhaitez-vous afficher? : "))
 debut = int(input("Entrez le multiplicateur minimum : "))
 fin = int(input("Entrez le multiplicateur maximum : "))

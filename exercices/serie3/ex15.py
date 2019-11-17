@@ -1,20 +1,17 @@
 #!/usr/bin/python
+from random import randint
+from time import sleep
 
 ### FONCTIONS ###
 def affiche_menu():
     print("1. Affichez une blague\n2. Jouer au nombre mystère\n3. Minuteur")
 
 def affiche_blague():
-    from random import randint
-
     liste_blagues = ["\nQu'est-ce qui est blanc, tombe du ciel et fini par 'ard' ?\nLa neige connard !\n", "\nQuelle est la différence entre une BMW et une LADA ?\nDans la BWM t'as l'air-co et dans la LADA t'as l'air con.\n", "\nPourquoi la petite fille tombe-t-elle de la balançoire ?\nParce qu'elle n'a pas de bras.\n", "\nQue faire lorsqu'un geek pleure ?\nOn le console.\n"]
     choix_blague = randint(1, len(liste_blagues))
-    
     print(liste_blagues[choix_blague-1])
 
 def jeu_nb_mystere(): 
-    from random import randint
-
     nb_mystere = randint(1, 100)
     nb_essais = 5
     nb_user = None
@@ -31,13 +28,11 @@ def jeu_nb_mystere():
             nb_essais -= 1
         else:
             print("Gagné !")
-                                                                                                                                                                   
+    
     if nb_essais == 0:                                                                                                                                             
         print("Perdu")    
 
 def minuteur(nb_secondes: int):
-    from time import sleep
-
     while nb_secondes > 0:
         print(nb_secondes)
         nb_secondes -= 1

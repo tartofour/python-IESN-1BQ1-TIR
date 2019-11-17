@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-### FONCTION ###
 def affiche_ip(octet1, octet2, octet3, octet4):
     if is_codable_on_a_byte(octet1) and is_codable_on_a_byte(octet2) and is_codable_on_a_byte(octet3) and is_codable_on_a_byte(octet4):
         print(octet1, octet2, octet3, octet4, sep='.')
@@ -10,7 +9,6 @@ def affiche_ip(octet1, octet2, octet3, octet4):
 def is_codable_on_a_byte(nb):
     return True if nb <= 255 else False
 
-### MAIN ###
 nb1 = int(input("Entrez un premier nombre : "))
 nb2 = int(input("Entrez un deuxième nombre : "))
 nb3 = int(input("Entrez un troisième nombre : "))
