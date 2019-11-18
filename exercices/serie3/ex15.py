@@ -8,8 +8,8 @@ def affiche_menu():
 
 def affiche_blague():
     liste_blagues = ["\nQu'est-ce qui est blanc, tombe du ciel et fini par 'ard' ?\nLa neige connard !\n", "\nQuelle est la différence entre une BMW et une LADA ?\nDans la BWM t'as l'air-co et dans la LADA t'as l'air con.\n", "\nPourquoi la petite fille tombe-t-elle de la balançoire ?\nParce qu'elle n'a pas de bras.\n", "\nQue faire lorsqu'un geek pleure ?\nOn le console.\n"]
-    choix_blague = randint(1, len(liste_blagues))
-    print(liste_blagues[choix_blague-1])
+    choix_blague = randint(1, len(liste_blagues)-1)
+    print(liste_blagues[choix_blague])
 
 def jeu_nb_mystere(): 
     nb_mystere = randint(1, 100)
