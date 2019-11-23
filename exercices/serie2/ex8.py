@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# Attention aux nb des caractères sur une ligne.
 commande_user = input("Quelle commande souhaitez-vous utiliser ? \n\nO : ouverture d'un fichier, \nX : sortie d'un programme, \nF : fermeture d'un fichier, \nP : impression d'un fichier) \n\nVotre choix : ").capitalize()
 
 if commande_user == "O":

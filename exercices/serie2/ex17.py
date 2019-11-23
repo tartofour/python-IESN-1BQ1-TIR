@@ -2,11 +2,13 @@
 
 ### FONCTION ###
 def affiche_echiquier():
-    for i in range(8):
-        if i %2 == 0:
-            print("_ # _ # _ # _ #")
+    i = 8
+    while i > 0:
+        if i % 2 == 0:
+            print("_ # " * 4)
         else: 
-            print("# _ # _ # _ # _")
+            print("# _ " * 4)
+        i-=1
 
 ### MAIN ###
 affiche_echiquier()
