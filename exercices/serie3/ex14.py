@@ -2,13 +2,13 @@
 from math import pi
 
 def aire_disque(rayon : float) -> float:
-    """Retourne l'aire du cercle de rayon x
+    """ Retourne l'aire du disque de rayon x
 
-    Args :
-        rayon(float): rayon du cercle
+    Args:
+        rayon (float): rayon du cercle
 
-    Return :
-        aire_cercle(float)
+    Return:
+        aire_disque (float)
 
     """
     return pi * rayon**2
