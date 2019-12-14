@@ -9,6 +9,5 @@ def parse_query_string(url: str) -> dict:
         parameters_dict[key] = value
     return parameters_dict
 
-
 url = input("Entrez un URL : ")
 print(parse_query_string(url))

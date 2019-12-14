@@ -3,7 +3,7 @@
 def common_pairs(d1: dict, d2: dict) -> list:
     lst_common_value = []
     for elmt in d1:
-        if elmt in d2 and d1[elmt] in d2[elmt]: 
+        if elmt in d2 and d1[elmt] == d2[elmt]: 
                 tpl_common_value = elmt, d1[elmt]
                 lst_common_value.append(tpl_common_value)
     return lst_common_value
