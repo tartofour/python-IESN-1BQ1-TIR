@@ -1,15 +1,12 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
-### FONCTIONS ###
 def tic():
     print("Tic")
 
 def tac():
     print("Tac")
 
-### MAIN ###
 nb_secondes = int(input("Entrez un nombre de seconde(s) : "))
-
 while nb_secondes > 0:
     if nb_secondes % 2 == 0:
         tic()

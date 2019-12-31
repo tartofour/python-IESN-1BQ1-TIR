@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 string1 = input("Entrez une première chaine de caractère : ")
 string2 = input("Entrez une seconde chaine de caractère : ")

@@ -1,6 +1,5 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
-### FONCTIONS ###
 def tic():
     global nb_secondes
     if nb_secondes > 0:
@@ -15,6 +14,5 @@ def tac():
         nb_secondes -= 1
         tic()
 
-### MAIN ###
 nb_secondes = int(input("Entrez un nombre de seconde(s) : "))
 tic()

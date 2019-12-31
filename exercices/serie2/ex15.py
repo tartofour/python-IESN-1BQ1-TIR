@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 ### FONCTIONS ###
 def ouvrir():
@@ -22,7 +22,6 @@ def invalid_parameter():
 
 ### MAIN ###    
 commande_user = input("Quelle commande souhaitez-vous utiliser ? \n\nO : ouverture d'un fichier, \nX : sortie d'un programme, \nF : fermeture d'un fichier, \nP : impression d'un fichier) \n\n").capitalize()
-
 if commande_user == "O":
     ouvrir()
 elif commande_user == "X":

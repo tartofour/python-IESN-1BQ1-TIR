@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 nb1 = int(input("Entrez un premier nombre : "))
 nb2 = int(input("Entrez un deuxième nombre : "))

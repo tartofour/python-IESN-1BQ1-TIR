@@ -1,6 +1,5 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
-### FONCTION ###
 def affiche_echiquier():
     i = 8
     while i > 0:
@@ -10,5 +9,4 @@ def affiche_echiquier():
             print("# _ " * 4)
         i-=1
 
-### MAIN ###
 affiche_echiquier()

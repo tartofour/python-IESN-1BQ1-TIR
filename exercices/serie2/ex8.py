@@ -1,6 +1,10 @@
-#!/usr/bin/python
-# Attention aux nb des caractères sur une ligne.
-commande_user = input("Quelle commande souhaitez-vous utiliser ? \n\nO : ouverture d'un fichier, \nX : sortie d'un programme, \nF : fermeture d'un fichier, \nP : impression d'un fichier) \n\nVotre choix : ").capitalize()
+#!/usr/bin/env python3
+commande_user = input("Quelle commande souhaitez-vous utiliser ? \n\n\
+        O : ouverture d'un fichier, \n\
+        X : sortie d'un programme, \n\
+        F : fermeture d'un fichier, \n\
+        P : impression d'un fichier) \n\n\
+        Votre choix : ").capitalize()
 
 if commande_user == "O":
     fichier = input("\nTapez le nom du fichier : ")

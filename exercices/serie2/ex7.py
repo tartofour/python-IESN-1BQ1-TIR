@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 prix_htva = int(input("Entrez le prix de l'article : "))
 categorie = int(input("Entrez la catégorie de l'articles (1 : normal, 2 : important, 3 : nécessaire) : "))

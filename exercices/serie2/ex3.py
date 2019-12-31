@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 nb = int(input("Entrez un nombre SVP : "))
 
