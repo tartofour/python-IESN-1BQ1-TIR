@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 nb_batiments = int(input("Combien de bâtiment(s) à contruire ? : "))
 ressources_necessaires = int(input("Combien de ressources nécessaires par bâtiment ? : "))
@@ -11,4 +11,3 @@ peut_construire =  nb_batiments != 0 and nb_batiments <= 15 and nb_batiments * r
 print("\nLe nombre de bâtiment est-il valide ? : {}".format(nb_batiments_valide))
 print("Les ressources sont-elles insuffisantes ? : {}".format(ressources_insuffisantes))
 print("Pouvez-vous contruire ? : {}".format(peut_construire))
-
