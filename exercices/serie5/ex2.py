@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-def print_mail(contacts: dir, name:str) -> None:
+def print_mail(contacts: dict) -> None:
     if name in contacts:
         print(contacts[name])
     else:
